@@ -43,16 +43,71 @@ nav ul
   font-size:var(--fontsize-nav) ;
   text-align: center;
   list-style-type: none;
-  text-decoration: none;
+  text-decoration: none !important;
   color: white !important;
 }
 nav ul li
 {
   margin:40px;
 }
-
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
 /* css for active class */
 .active
 {
 font-weight: bolder;
+}
+
+.profilepic{
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+}
+.typingeffect{
+  font: 50px;
+}
+
+.social{
+  position: absolute;
+  margin-top: 20px;
+  display: flex;
+  bottom: 60px;
+}
+
+.social i{
+  padding-right: 30px;
+  font-size: 25px;
+  color: #9a9b9c;
+}
+
+.social i:hover{
+  color: white;
+}
+
+.subtopic{
+  margin: 10px 10px 30px 10px !important;
+}
+
+p{
+  font-size: var(--fontsize-p);
+}
+
+h1, h2, h3, h4, p{
+  margin: 10px;
+}
+
+.widecard{
+  border: 0px solid #9a9b9c;
+  display: flex;
+  margin: 30px 0px 30px 0px;
+}
+
+.widecard:hover{
+  color: #1b1d20;
+  background-color: #ffffff;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
