@@ -16,16 +16,16 @@ function App(){
                 <Route exact path="/react-portfolio">
                     <Home />
                 </Route>
-                <Route path="/about">
+                <Route path="/react-portfolio/about">
                     <About />
                 </Route>
-                <Route path="/education">
+                <Route path="/react-portfolio/education">
                     <Education/>
                 </Route>
-                <Route path="/skills">
+                <Route path="/react-portfolio/skills">
                     <Skills/>
                 </Route>
-                <Route path="/contact">
+                <Route path="/react-portfolio/contact">
                     <Contact />
                 </Route>
             </div>
