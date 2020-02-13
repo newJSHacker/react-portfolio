@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "license": "MIT",
-  "homepage": "http://newjshacker.github.io/react-portfolio",
+  "homepage": "https://newjshacker.github.io/react-portfolio",
   "dependencies": {
     "@carbon/icons-react": "^10.8.2",
     "@carbon/themes": "^10.9.3",
